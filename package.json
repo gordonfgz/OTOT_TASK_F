@@ -1,0 +1,33 @@
+{
+  "name": "otot_task_b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordonfgz/CS3219_OTOT_TASK_B.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordonfgz/CS3219_OTOT_TASK_B/issues"
+  },
+  "homepage": "https://github.com/gordonfgz/CS3219_OTOT_TASK_B#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^9.1.2",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1",
+    "redis": "^3.1.2",
+    "ruby": "^0.6.1",
+    "travis": "^0.1.1"
+  },
+  "devDependencies": {}
+}
