@@ -58,7 +58,7 @@ app.get("/photos/:id", async (req, res) => {
 
 app.get("/CarOwners/:id", async (req, res) => {
   const data = await getOrSetCache(`CarOwners:${req.params.id}`, async () => {
-    const data = await pool.query("SELECT * FROM CarOwners")
+    const data = await pool.query("SELECT * FROM CarOwners WHERE id = $1", [req.params.id])
     return data.rows
   })
   res.json(data) 
